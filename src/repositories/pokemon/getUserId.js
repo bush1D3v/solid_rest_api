@@ -1,0 +1,20 @@
+const jwt = require('jsonwebtoken')
+const jwtpassword = require('../../password/jwtPassword')
+
+const getUserId = (req) => {
+  try {
+    const { authorization } = req.headers
+
+    const token = authorization.split(' ')[1]
+
+    const { id } = jwt.verify(token, jwtpassword)
+
+    return id
+  } catch (error) {
+    return error.message
+  }
+}
+
+module.exports = {
+  getUserId
+}

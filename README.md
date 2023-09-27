@@ -12,7 +12,9 @@
     <img align='center' height='53' width='55' title='JsonWebToken' alt='jsonwebtoken' src='https://github.com/bush1D3v/solid_rest_api/assets/133554156/d23ffb9d-aedc-4d68-9209-7268d7f41ce6' /> &nbsp;
     <img align='center' height='49' width='49' title='Express' alt='express' src='https://github.com/bush1D3v/solid_rest_api/assets/133554156/ba645c20-1f19-4914-8ad0-de6c7f83ba2e' /> &nbsp;
     <img align='center' height='53' width='49' title='Nodemon' alt='nodemon' src='https://github.com/bush1D3v/solid_rest_api/assets/133554156/fd586348-7781-4e02-a4f0-fe7410ef43fb' /> &nbsp;
-    <img align='center' height='48' width='48' title='Bcrypt' alt='bcrypt' src='https://github.com/bush1D3v/solid_rest_api/assets/133554156/5863bac1-a591-4776-82a4-f427681934be' />
+    <img align='center' height='48' width='48' title='Bcrypt' alt='bcrypt' src='https://github.com/bush1D3v/solid_rest_api/assets/133554156/5863bac1-a591-4776-82a4-f427681934be' /> &nbsp;
+    <img align='center' height='53' width='49' title='Nodemon' alt='nodemon' src='https://github.com/bush1D3v/my_portfolio/assets/133554156/0d5b4b55-546c-4bc0-a25c-dfc9116fe993' /> &nbsp;
+    <img align='center' height='48' width='48' title='Bcrypt' alt='bcrypt' src='https://github.com/bush1D3v/my_portfolio/assets/133554156/75a3fffd-792e-4250-8ef5-2abb615e38a0' />
 </div> <br>
 
 ## Sobre o Projeto
@@ -25,43 +27,43 @@ Tabela de Rotas da API
     <img src="https://github.com/bush1D3v/solid_rest_api/assets/133554156/c4eb0f2d-c51e-4900-a5e8-6bce7a640752" />
 </div>
 
-[http://localhost:3000/register](#/register)
+* [http://localhost:3000/register](#/register)
 
 <div>
     <img src="https://github.com/bush1D3v/solid_rest_api/assets/133554156/a212a503-ae5c-4bc3-84c7-5f8542997f04" />
 </div>
 
-[http://localhost:3000/login](#/login)
+* [http://localhost:3000/login](#/login)
 
 <div>
     <img src="https://github.com/bush1D3v/solid_rest_api/assets/133554156/7f0d970c-db46-4c23-8912-e162592493cf" />
 </div>
 
-[http://localhost:3000/pokemon/register](#/pokemon/register)
+* [http://localhost:3000/pokemon/register](#/pokemon/register)
 
 <div>
     <img src="https://github.com/bush1D3v/solid_rest_api/assets/133554156/e1b57fee-f381-4863-8d9e-56534eeb03ed" />
 </div>
 
-[http://localhost:3000/pokemon/nickname/:id](#/pokemon/nickname/:id)
+* [http://localhost:3000/pokemon/nickname/:id](#/pokemon/nickname/:id)
 
 <div>
     <img src="https://github.com/bush1D3v/solid_rest_api/assets/133554156/bd99a804-a60e-4354-ac90-b64b3c4e7ce7" />
 </div>
 
-[http://localhost:3000/pokemon](#/pokemon)
+* [http://localhost:3000/pokemon](#/pokemon)
 
 <div>
     <img src="https://github.com/bush1D3v/solid_rest_api/assets/133554156/6068ab68-ad1d-4937-8ddd-08cf3f7a2d23" />
 </div>
 
-[http://localhost:3000/pokemon/:id](#/pokemon/:id)
+* [http://localhost:3000/pokemon/:id](#/pokemon/:id)
 
 <div>
     <img src="https://github.com/bush1D3v/solid_rest_api/assets/133554156/6a292cc5-b11d-4057-b2b7-391996eec7f7" />
 </div>
 
-[http://localhost:3000/pokemon/delete/:id](#/pokemon/delete/:id)
+* [http://localhost:3000/pokemon/delete/:id](#/pokemon/delete/:id)
 
 # Como executar esse projeto?
 
@@ -79,18 +81,30 @@ npm install
 npm run dev
 ```
 
-
-
 # /register
+
+![register](https://github.com/bush1D3v/my_portfolio/assets/133554156/0c6b8343-967a-4fed-8452-5eb480524710)
 
 # /login
 
+![login](https://github.com/bush1D3v/my_portfolio/assets/133554156/d1cd72be-0ff2-4ff5-8abe-1998e340d383)
+
 # /pokemon/register
+
+![pokemon_register](https://github.com/bush1D3v/my_portfolio/assets/133554156/d549c1ed-ff4c-4a3e-972c-c5349647699e)
 
 # /pokemon/nickname/:id
 
+![pokemon_nickname_id](https://github.com/bush1D3v/my_portfolio/assets/133554156/42208414-74e9-4201-a2a7-53baac23a61d)
+
 # /pokemon
+
+![pokemon](https://github.com/bush1D3v/my_portfolio/assets/133554156/1890162f-c1c5-4845-afe3-86beb52b1bf8)
 
 # /pokemon/:id
 
+![pokemon_id](https://github.com/bush1D3v/my_portfolio/assets/133554156/446d83f0-4059-4fe9-8e8d-53d2fc922087)
+
 # /pokemon/delete/:id
+
+![pokemon_delete_id](https://github.com/bush1D3v/my_portfolio/assets/133554156/086f3bb0-4b1c-4bfa-adb5-c1001b283330)

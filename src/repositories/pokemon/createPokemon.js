@@ -1,4 +1,4 @@
-const pool = require('../../data/conection')
+const pool = require('../../data/connection')
 
 const createPokemon = async (id, nome, apelido, habilidades, imagem) => {
   try {

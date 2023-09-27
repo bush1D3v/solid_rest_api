@@ -18,7 +18,7 @@
 </div> <br>
 
 ## Sobre o Projeto
-<strong>API Rest</strong> com integração a <strong>banco de dados</strong>, <strong>autenticação</strong> de usuário e <strong>criptografia</strong> de senha. <br> Tentando levar em consideração alguns princípios de <strong>SOLID</strong>. 
+<strong>API Rest</strong> com integração a <strong>banco de dados</strong>, <strong>autenticação</strong> de usuário e <strong>criptografia</strong> de senha. <br> Tentando levar em consideração os princípios de <strong>SOLID</strong>. 
 
 
 Tabela de Rotas da API

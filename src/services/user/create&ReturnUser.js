@@ -1,7 +1,7 @@
 const {
   createUser,
   encryptPassword
-} = require('../../repositories/user/index')
+} = require('../../utils/user/index')
 
 const createAndReturnUser = async (name, mail, password) => {
   try {

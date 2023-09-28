@@ -1,4 +1,4 @@
-const { changeNickname } = require('../../repositories/pokemon/index')
+const { changeNickname } = require('../../utils/pokemon/index')
 
 const updateNicknameAndReturnPokemon = async (apelido, id) => {
   const pokemon = await changeNickname(apelido, id)

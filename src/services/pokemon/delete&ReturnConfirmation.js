@@ -1,4 +1,4 @@
-const { deletePokemonId } = require('../../repositories/pokemon/index')
+const { deletePokemonId } = require('../../utils/pokemon/index')
 
 const deleteAndReturnConfirmation = async (id) => {
   try {

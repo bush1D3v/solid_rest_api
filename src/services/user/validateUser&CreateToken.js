@@ -1,7 +1,7 @@
 const {
   validateUser,
   createToken
-} = require('../../repositories/user/index')
+} = require('../../utils/user/index')
 
 const validateUserAndCreateToken = async (name, mail, password) => {
   try {

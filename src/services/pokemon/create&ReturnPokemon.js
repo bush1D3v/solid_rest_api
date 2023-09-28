@@ -1,7 +1,7 @@
 const {
   getUserId,
   createPokemon
-} = require('../../repositories/pokemon/index')
+} = require('../../utils/pokemon/index')
 
 const createAndReturnPokemon = async (req, nome, apelido, habilidades, imagem) => {
   try {

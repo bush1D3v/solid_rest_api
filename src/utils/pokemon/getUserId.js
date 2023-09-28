@@ -1,5 +1,5 @@
 const jwt = require('jsonwebtoken')
-const jwtpassword = require('../../password/jwtPassword')
+const jwtpassword = require('../../jwt/password')
 
 const getUserId = (req) => {
   try {

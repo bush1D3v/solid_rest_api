@@ -1,4 +1,4 @@
-const { createPokemonListId } = require('../../repositories/pokemon/index')
+const { createPokemonListId } = require('../../utils/pokemon/index')
 
 const displayPokemonId = (id) => {
   try {

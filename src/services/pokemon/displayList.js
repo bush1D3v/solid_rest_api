@@ -1,4 +1,4 @@
-const { createPokemonList } = require('../../repositories/pokemon/index')
+const { createPokemonList } = require('../../utils/pokemon/index')
 
 const displayList = async () => {
   try {

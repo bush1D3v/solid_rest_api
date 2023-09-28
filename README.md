@@ -1,10 +1,10 @@
-# SOLID REST API
+# ⛰️SOLID REST API
 ![License](https://img.shields.io/static/v1?label=license&message=MIT&color=blue) &nbsp;
 ![Npm version](https://img.shields.io/static/v1?label=npm&message=v10.1.0&color=blue&style=flat-square) &nbsp;
 ![Repository size](https://img.shields.io/github/repo-size/bush1D3v/solid_rest_api?color=green&style=flat-square) &nbsp;
 ![Pull request](https://img.shields.io/static/v1?label=PR&message=welcome&color=green) &nbsp;
 
-## Tecnologias e Ferramentas Utilizadas
+## 🛠️Tecnologias e Ferramentas Utilizadas
 <div>
     <img align='center' height='50' width='70' title='JavaScript' alt='javascript' src='https://github.com/devicons/devicon/blob/master/icons/javascript/javascript-original.svg' />
     <img align='center' height='54' width='68' title='Node.js' alt='nodejs' src='https://github.com/devicons/devicon/blob/master/icons/nodejs/nodejs-original.svg' />
@@ -17,7 +17,7 @@
     <img align='center' height='53' width='49' title='Beekeeper' alt='beekeeper' src='https://github.com/bush1D3v/my_portfolio/assets/133554156/0d5b4b55-546c-4bc0-a25c-dfc9116fe993' /> 
 </div> <br>
 
-## Sobre o Projeto
+## 📄Sobre o Projeto
 <strong>API Rest</strong> com integração a <strong>banco de dados</strong>, <strong>autenticação</strong> de usuário e <strong>criptografia</strong> de senha. <br> Tentando levar em consideração os princípios de <strong>SOLID</strong>. 
 
 
@@ -100,7 +100,7 @@ Para que o projeto funcione corretamente, você precisa configurar o objeto `poo
        port: 5432,
        user: 'postgres',
        password: '123456',
-       database: 'dindin',
+       database: 'abcdef',
    });
    ```
  

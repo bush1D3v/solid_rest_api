@@ -21,8 +21,7 @@
 <strong>API Rest</strong> com integração a <strong>banco de dados</strong>, <strong>autenticação</strong> de usuário e <strong>criptografia</strong> de senha. <br> Tentando levar em consideração os princípios de <strong>SOLID</strong>. 
 
 
-Tabela de Rotas da API
-=================
+# 🧠Tabela de Rotas da API
 <div>
     <img src="https://github.com/bush1D3v/solid_rest_api/assets/133554156/c4eb0f2d-c51e-4900-a5e8-6bce7a640752" />
 </div>
@@ -65,9 +64,15 @@ Tabela de Rotas da API
 
 * [http://localhost:3000/pokemon/delete/:id](#pokemon-delete-id)
 
-# Como executar esse projeto?
+# 💻Como executar esse projeto?
 
 Para executar esse projeto localmente, você vai precisar:
+
+- Clonar Esse Repositório
+
+```zsh
+git clone https://github.com/bush1D3v/solid_rest_api
+```
 
 - Instalar dependências
 
@@ -81,7 +86,29 @@ npm install
 npm run dev
 ```
 
-# Rotas
+# ⚠️Não se Esqueça
+
+Para que o projeto funcione corretamente, você precisa configurar o objeto `pool` no arquivo `connection.js`, para que ele aponte para as informações do banco de dados PostgreSQL instalado em sua máquina. Siga os passos abaixo para fazer essa configuração:
+
+1. **Execute o Dump SQL:** Antes de configurar o objeto `pool`, certifique-se de ter executado o script SQL fornecido (`dump.sql`) no seu banco de dados PostgreSQL. Isso criará as tabelas necessárias.
+
+2. **Configure o Objeto `pool`:** Abra o arquivo `connection.js` e localize o objeto `pool`.
+
+   ```javascript
+   const pool = new Pool({
+       host: 'localhost',
+       port: 5432,
+       user: 'postgres',
+       password: '123456',
+       database: 'dindin',
+   });
+   ```
+ 
+Certifique-se de fornecer as informações corretas de acordo com o seu ambiente local. Após essa configuração, o projeto estará pronto para se conectar ao seu banco de dados PostgreSQL local.
+
+Lembre-se de que as informações do banco de dados são sensíveis, portanto, mantenha-as seguras e não compartilhe com terceiros.
+
+# 🗺️Rotas
 
 <details open>
     <summary> <strong> Todas as rotas de pokemon necessitam de envio de token no "Auth", sendo do tipo "Bearer" </strong> </summary> <br>
